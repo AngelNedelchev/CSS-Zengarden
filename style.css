@@ -168,7 +168,7 @@ p {
     grid-template-columns: 1fr 1fr minmax(80px, 1fr);
     position: relative;
     right: -300px;
-    top: -10px;
+    top: -2px;
     width: 450px;
 }
 /*Archives*/
