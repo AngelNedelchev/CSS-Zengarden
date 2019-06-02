@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: url(papers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Headers*/
+h1 {
+    border: 3px solid lightblue;
+    border-radius: 25px;
+    color: lightblue;
+    width: 200px;  
+    margin: 50px auto;
+    padding: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    text-shadow: -1px 2px rgba(0,0,0,1);  
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.5);
+    text-align: center;
+    box-shadow: 0px 0px 40px 10px rgba(0, 1, 7, 0.4);
+}
+h2 {
+    border: 3px solid lightblue;
+    border-radius: 25px;
+    color: lightblue;
+    width: 350px;  
+    margin: 10px auto;
+    padding: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    text-shadow: -1px 2px rgba(0,0,0,1);  
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    box-shadow: 0px 0px 40px 10px rgba(0, 1, 7, 0.4);
+}
+h3 {
+    border: 3px solid lightblue;
+    border-radius: 25px;
+    color: lightblue;
+    width: 350px;  
+    margin: 10px auto;
+    padding: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    text-shadow: -1px 2px rgba(0,0,0,1);  
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    box-shadow: 0px 0px 40px 10px rgba(0, 1, 7, 0.4);
+}
+section {
+    padding-top: 10px;
+    margin-top: -20px;
+}
+/*Paragraphs*/
+p {
+    text-align: center;
+    margin: 0 30px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight:400;
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    display: block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-shadow: -1px 1px  rgba(0,0,0,0.7); 
+}
+.summary p {
+    border-left: 3px solid rgb(3, 68, 32);
+    border-right: 3px solid rgb(3, 68, 32);
+    border-radius: 10px;
+    height: auto; 
+    width: 420px;  
+    margin: 20px auto;
+    background-color: rgba(89, 144, 247, 0.1);
+    color:rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 40px 10px rgba(11, 17, 10, 0.5);
+}
+.preamble p{
+    border-left: 3px solid rgb(3, 68, 32);
+    border-right: 3px solid rgb(3, 68, 32);
+    border-radius: 10px;
+    height: auto; 
+    width: 800px;  
+    margin: 20px auto;
+    background-color: rgba(89, 144, 247, 0.1);
+    color:rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 40px 10px rgba(0, 1, 7, 0.5);
+}
+.explanation p {
+    border-left: 3px solid rgb(3, 68, 32);
+    border-right: 3px solid rgb(3, 68, 32);
+    border-radius: 10px;
+    height: auto; 
+    width: 1200px;  
+    margin: 20px auto;
+    background-color: rgba(89, 144, 247, 0.1);
+    color:rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 40px 10px rgba(0, 1, 7, 0.5);
+}
+.participation p {
+    border-left: 3px solid rgb(3, 68, 32);
+    border-right: 3px solid rgb(3, 68, 32);
+    border-radius: 10px;
+    height: auto; 
+    width: 1500px;  
+    margin: 20px auto;
+    background-color: rgba(89, 144, 247, 0.1);
+    color:rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 40px 10px rgba(0, 1, 7, 0.5);
+}
+.benefits p {
+    border-left: 3px solid rgb(3, 68, 32);
+    border-right: 3px solid rgb(3, 68, 32);
+    border-radius: 10px;
+    height: auto; 
+    width: 800px;  
+    margin: 20px auto;
+    background-color: rgba(89, 144, 247, 0.1);
+    color:rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 40px 10px rgba(0, 1, 7, 0.5);
+}
+.requirements p {
+    border-left: 3px solid rgb(3, 68, 32);
+    border-right: 3px solid rgb(3, 68, 32);
+    border-radius: 10px;
+    height: auto; 
+    width: 1600px;  
+    margin: 40px auto;
+    background-color: rgba(89, 144, 247, 0.1);
+    color:rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 40px 10px rgba(0, 1, 7, 0.5);
+}
+/* Select a Design + Archives*/
+.design-selection nav, .design-archives nav {
+    border: 6px solid rgba(14, 72, 92, 0.7);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 360px;
+    margin: 20px auto;
+    border-radius: 25px;
+    border-left: 1px;
+    border-right: 1px;
+}
+.design-selection li, .design-archives li {
+    border: 1px solid green;
+    width: 300px;
+    margin: 5px;
+    background-color:rgba(12, 79, 102, 0.2);
+    border-radius: 25px;
+    box-shadow: 10px 0px 50px 10px rgba(192, 255, 236, 0.1);
+    text-align: center;
+    border-left: 10px;
+    border-right: 10px;
+    list-style: none;
+}
+.design-selection {
+    grid-template-columns: 1fr 1fr minmax(80px, 1fr);
+    position: relative;
+    right: -300px;
+    top: -10px;
+    width: 450px;
+}
+/*Archives*/
+.design-archives {
+    grid-template-columns: 1fr 1fr minmax(80px, 1fr);
+    position: relative;
+    right: -700px;
+    top: -315px;
+    text-decoration: none;
+    width: 500px;
+}
+/*Resources*/
+.zen-resources  ul {
+    border: 6px solid rgba(14, 72, 92, 0.7);
+    width: 350px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 25px;
+    border-left: 1px;
+    border-right: 1px;
+    height: 200px;
+}
+.zen-resources li {
+    border: 1px solid green;
+    width: 300px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 0px 50px 10px rgba(192, 255, 236, 0.1);
+    text-align: center;
+    border-left: 10px;
+    border-right: 10px;
+    list-style: none;
+}
+.zen-resources {
+    grid-template-columns: 1fr 1fr minmax(80px, 1fr);
+    position: relative;
+    right: -1125px;
+    top: -470px;
+    width: 500px;
+}
+/* Transform paragraphs and lists */
+.summary:hover {
+    transform: scale(1.1);
+}
+.preamble:hover p {
+    transform: scale(1.1);  
+}
+.design-selection:hover li {
+    transform: scale(1.1); 
+}
+.explanation:hover p {
+    transform: scale(1.1); 
+}
+.participation:hover p{
+    transform: scale(1.1); 
+}
+.benefits:hover p{
+    transform: scale(1.1); 
+}
+.requirements:hover p{
+    transform: scale(1.1); 
+}
+.design-archives:hover li {
+    transform: scale(1.1); 
+}
+.zen-resources:hover li {
+    transform: scale(1.1); 
+}
+/*Links behavior*/
+a:link {
+    color: rgb(131, 248, 150);
+}a:visited {
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    color: rgb(46, 72, 190);
+}
+a:active {
+    color: rgb(0, 0, 0);
+}
+/*Remove underline*/
+.design-name, .designer-name {
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+}
+.zen-resources a {
+    text-decoration: none;
+}
+abbr {
+    text-decoration: none;
+    color: rgb(248, 184, 6);
+}
+/*Footer*/
+footer {
+    grid-template-columns: 1fr 1fr minmax(80px, 1fr);
+    position: relative;
+    right: -848px;
+    top: 320px;
+    max-width: 200px;
+    border: 6px solid rgba(2, 7, 3, 0.7);
+    border-radius: 5px;
+    border-left: 2px;
+    border-right: 2px;
+    background-color:rgba(12, 79, 102, 0.2);
+    box-shadow: 10px 0px 50px 10px rgba(192, 255, 236, 0.2);
+    text-align: center;
+}
+footer a {
+    border-radius: 3px;
+    color: rgba(23, 20, 160, 0.7);
+    box-shadow: 0px 0px 40px 10px rgba(0, 1, 7, 0.2);
+    text-align: center;
+    text-decoration: none;
+}
+/*Empty space bottom page*/
+.wrapper {
+    height: 50px;
+}
